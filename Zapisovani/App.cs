@@ -25,6 +25,7 @@ namespace Zapisovani
 
             while (procced)
             {
+                Console.WriteLine("Kolik hexu chces?");
                 input = Convert.ToInt32(Console.ReadLine());  
                 if(input == 0)
                 { 
