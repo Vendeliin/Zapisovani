@@ -43,7 +43,7 @@ namespace Zapisovani
                         }
                         else
                         {
-                            number = random.Next(0, 9);
+                            number = random.Next(0, 10);
                             number.ToString();
                             Hex = Hex + number;
                         }
